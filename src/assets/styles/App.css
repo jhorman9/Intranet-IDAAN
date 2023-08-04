@@ -1,0 +1,57 @@
+/*--UTILS--*/
+
+.position-absolute{
+    position: absolute;
+}
+
+.position-relative{
+    position: relative;
+}
+
+.btn-primary{
+    background-color: var(--primary);
+    border: none;
+    outline: none;
+    border-radius: 14px;
+    -webkit-border-radius: 14px;
+    -moz-border-radius: 14px;
+    -ms-border-radius: 14px;
+    -o-border-radius: 14px;
+    padding: 7px 14px;
+    color: var(--secondaryS);
+    cursor: pointer;
+}
+
+.btn-primary:hover{
+    background-color: var(--secondary);
+}
+
+.btn-secondary{
+    background-color: var(--secondary);
+    border: none;
+    outline: none;
+    border-radius: 14px;
+    -webkit-border-radius: 14px;
+    -moz-border-radius: 14px;
+    -ms-border-radius: 14px;
+    -o-border-radius: 14px;
+    padding: 7px 14px;
+    color: var(--secondaryS);
+    cursor: pointer;
+}
+
+.btn-secondary:hover{
+    background-color: var(--secondary);
+}
+
+.text-decoration-none{
+    text-decoration: none;
+}
+
+.color-inherit{
+    color: inherit;
+}
+
+.w-100{
+    width: 100%;
+}

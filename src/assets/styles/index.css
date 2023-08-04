@@ -1,0 +1,56 @@
+:root{
+  --primary: #006491;
+  --primaryS: #41A6D7;
+  --primaryT: #1D1D1B;
+  --secondary: #34A6C5;
+  --secondaryS: #F9F8FC;
+}
+
+*{
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: 'Graphik-Heavy';
+  src: url('../typography/GraphikSuper.otf') format('truetype');
+  font-weight: 900;
+}
+
+@font-face {
+  font-family: 'Graphik-Bold';
+  src: url('../typography/GraphikBold.otf') format('truetype');
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: 'Graphik-Medium';
+  src: url('../typography/GraphikMedium.otf') format('truetype');
+  font-weight: 500; 
+}
+
+@font-face {
+  font-family: 'Graphik';
+  src: url('../typography/GraphikRegular.otf') format('truetype');
+  font-weight: 400; 
+}
+
+@font-face {
+  font-family: 'Graphik-Italic';
+  src: url('../typography/GraphikLightItalic.otf') format('truetype');
+  font-weight: 400; 
+  font-style: italic;
+}
+
+body{
+  font-family: 'Graphik', sans-serif;
+  font-size: 16px;
+}
+
+
+h1{
+  font-family: "Graphik-Bold";
+}
+
+h2{
+  font-family: "Graphik-medium";
+}

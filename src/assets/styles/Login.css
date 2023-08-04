@@ -1,0 +1,119 @@
+.form-login{
+    background-color: var(--secondaryS);
+    height: 100vh;
+    display: grid;
+    place-content: center;
+    justify-content: center;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    max-width: 1920px;
+    margin: auto;
+}
+
+.form-content {
+    margin: auto;
+    width: 375px;
+}
+
+.form-login .form-content .form-login_content .form-login_header-text h2{
+    margin-bottom: 3px;
+}
+
+.form-login .form-content .form-login_content .form-login_logo{
+    width: 200px;
+}
+
+.form-login .form-content .form-login_content .position-absolute{
+    top: 14px;
+    right: 9px;
+}
+
+.form-login .form-content .form-login_content .position-absolute img{
+    width: 20px;
+}
+
+.form-login .form-content .form-login_content .form-login_input .form-login_input-password_content .form-login-password_vectors{
+    top: 13px;
+    right: 7px;
+}
+
+.form-login .form-content .form-login_content .form-login_input .form-login_input-password_content .form-login-password_vectors img{
+    width: 25px;
+    cursor: pointer;
+}
+
+/* .form-login .form-content .form-login_content .form-login_input button{
+    margin-top: 7px;
+} */
+
+
+.form-login .form-content .form-login_content .form-login_input .form-login_input-checkbox_content{
+    display: flex;
+    align-items: center;
+    flex-direction: row-reverse;
+}
+
+.form-login .form-content .form-login_content .form-login_input .form-login_input-checkbox_content .form-login_input-checkbox{
+    margin-right: 7px;
+    width: fit-content;
+    cursor: pointer;
+    padding-top: 3px;
+    width: 15px;
+    margin-top: 0;
+}
+
+.form-login .form-content .form-login_content .form-login_input .form-login_input-checkbox_content .form-login_input-checkbox-label{
+    margin-top: 3px;
+}
+
+.form-login .form-login_content .form-login_input .form-login_input-text_content{
+    position: relative;
+}
+
+.form-login .form-login_content .form-login_input input{
+    width: 100%;
+    margin-top: 7px;
+    border-radius: 14px;
+    -webkit-border-radius: 14px;
+    -moz-border-radius: 14px;
+    -ms-border-radius: 14px;
+    -o-border-radius: 14px;
+    outline: none;
+    border: 1px solid var(--primary);
+    height: 35px;
+    padding: 0 35px 0 14px;
+}
+
+.form-login .form-login_content .form-login_input .form-login_text-bottom_content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 3px 0;
+}
+
+.form-login .form-login_content .form-login_input .form-login_text-bottom_content .form-login_text-bottom{
+    margin-top: 3px;
+}
+
+.form-login .form-login_content .form-login_input .form-login_text-bottom_first{
+    margin-bottom: 7px;
+}
+
+.form-login .form-text h1{
+    color: var(--primary);
+    font-family: 'Graphik-Heavy';
+    font-size: 48px;
+} 
+
+.form-login .form-text{
+    height: 100vh;
+    background: url("src/assets/images/icons/combination-colors.svg");
+    width: 100%;
+    background-position: bottom;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-repeat: no-repeat;
+}
+
