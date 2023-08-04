@@ -107,7 +107,7 @@
 
 .form-login .form-text{
     height: 100vh;
-    background: url("src/assets/images/icons/combination-colors.svg");
+    background: url("../images/icons/combination-colors.svg");
     width: 100%;
     background-position: bottom;
     text-align: center;
